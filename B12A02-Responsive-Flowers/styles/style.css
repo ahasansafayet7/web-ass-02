@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+.open-sans-fonts {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* dark gray */
+.text-gray{
+    color: gray;
+}
+
+.navbar{
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links{
+    display: flex;
+    gap: 30px;
+    text-decoration: none;
+    list-style-type: none;
+}
+.nav-cart{
+    text-decoration: none;
+    color: black;
+}
+.nav-link{
+    text-decoration: none;
+    
+}
+.clr-1{
+    font-weight: bold;
+    color: black;
+}
+.logo{
+    width: 135px;
+    height: 82px;
+}
+
+.banner-cont{
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+}
+.f-color{
+    color: #E95A08;
+}
+.plant-header{
+    text-align: center;
+}
+
+.plants{
+    font-weight: 600;
+    font-size: 3rem;
+    margin-bottom: 16px;
+}
+.text-2{
+    font-weight: 400;
+    font-size: 1.rem;
+    align-items: center;
+    
+}   
+.btn{
+    background-color: #E95A08;
+    padding: 15px 80px;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 1rem;
+    border: none;
+}
+.card-itam{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.card-container{
+    margin-top: 50px;
+}
+h4{
+    margin-top: 5px;
+}
+.text-3{
+    font-weight: 400;
+    font-size: 1rem;
+    margin-bottom: 15px;
+    color: gray;
+}
+.card-plants{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+
+}
+.container{
+    width: 1140px;
+    margin: 0px auto;
+    display: flex;
+    gap: 60px;
+    margin-top: 120px;
+    align-items: center;
+}
+.image-cont{
+    position: relative;
+}
+
+.badge{
+    position: absolute;
+    top: -140px;
+    right: -110px;
+    filter: drop-shadow(10px 5px 5px gray);
+    
+}
+#badges{
+    width: 286px;
+    height: 286px;
+}
+.text-sect{
+    width: 540px;
+    height: 521px;
+}
+.text-sect h2{
+    font-weight: 600;
+    /* font-size: 3.1rem; */
+    margin-bottom: 20px;
+
+}
+.head-2{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.head-2 h2{
+    font-weight: 600;
+    font-size: 3.1rem;
+    margin-bottom: 15px;
+}
+.deals-container{
+    display: flex;
+    grid-template-columns: repeat(1, 2fr);
+    gap: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+   margin-top: 90px;
+}
+.deal-card-1{
+    width: 366px;
+    height: 206px;
+    background-image: url(../assets/deal-ana.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    color: #FFFFFF;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+.deal-card-2{
+    width: 366px;
+    height: 206px;
+    background-image: url(../assets/deal-bloom.png);
+     background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    color: #FFFFFF;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin-top: 10px;   
+    
+}
+.deal-card-3{
+    width: 755px;
+    height: 423px;
+    background-image: url(../assets/deal-zabo.png);
+     background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    color: #FFFFFF;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+.deal-card, .large{
+    grid-column: span 2;
+    
+}
+.deal-card, .text{
+    padding: 10px 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+.deal-card h3{
+    font-weight: 600;
+    font-size: 1.3rem;
+    margin-bottom: 5px;
+}
+.deal-card p{
+    font-weight: 600;
+    font-size: 1rem;
+}
+.text-4{
+    
+    height: 30px;
+    font-weight: 400;
+    font-size: 1.3rem;
+    align-items: center;
+}
+.footer-container{
+    width: 1140px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+.foot-cont{
+    display: flex;
+    gap: 30px;
+} 
+.home-foot{
+    display: flex;
+    gap: 30px;
+}
+.text-5{
+    font-weight: 300;
+    font-size: 1.3rem;
+    color: gray;
+    
+}
+.flax-1 ul{
+    list-style: none;
+    color: #808080;
+}
+.flax-1 ul li{
+    margin-bottom: 20px;
+}
+.logo-foot{
+    display: flex;
+    gap: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Mobile device responsive */
+@media screen and (max-width: 576px) {
+    .banner-cont{
+        flex-direction: column-reverse;
+    }
+   
+    .nav-link{
+        display: none;
+    }
+    .card-plants{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        
+    }
+    
+    .container{
+        flex-direction: column;
+        width: 0px;
+        align-items: center;
+        margin-bottom: 400px;
+    }
+    .plant-header{
+        align-items: center;
+    }
+    .badge{
+        display: none;
+    }
+    .imagess{
+        width: 358px;
+        height: 396px;
+    }
+    
+    .text-sect{
+        width: 361px;
+        height: 51px;
+    }
+    .head{
+        width: 270px;
+        height: 33px;
+       
+    }
+    .latest-section{
+        flex-direction: column;
+        grid-template-columns: ;
+        align-items: center;
+    }
+    .deals-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .deal-card-3{
+        width:361px;
+        height: 206px;
+    } 
+    .foot-cont{
+        flex-direction: column;
+    }
+    .home-foot{
+        flex-direction: column;
+    }
+    
+    .footer-container{
+        width: 369px;
+        height: 765px;
+        gap: 20px;
+    }
+    
+}
