@@ -218,6 +218,50 @@ h4{
     font-size: 1.3rem;
     align-items: center;
 }
+.form {
+    background-image: url('../assets/news-letter-bg.png'); /* adjust if needed */
+    background-size: cover;
+    background-position: center;
+    padding: 60px 20px;
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+    border-radius: 15px;
+}
+
+.form-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.form-box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.form-box .email {
+    padding: 15px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: none;
+    width: 280px;
+    max-width: 100%;
+}
+
+.form-box .submit {
+    padding: 15px 30px;
+    font-size: 1rem;
+    background-color: #E95A08;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
 .footer-container{
     width: 1140px;
     margin: 0 auto;
